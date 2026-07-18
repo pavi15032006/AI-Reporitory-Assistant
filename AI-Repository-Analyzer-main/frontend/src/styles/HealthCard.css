@@ -1,0 +1,120 @@
+.health-card{
+
+    background:#ffffff;
+    border-radius:16px;
+    padding:25px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+}
+
+.health-card h2{
+
+    color:#2563eb;
+    margin-bottom:20px;
+
+}
+
+.health-score{
+
+    width:120px;
+    height:120px;
+
+    margin:20px auto;
+
+    border:8px solid;
+
+    border-radius:50%;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:#f8fafc;
+
+}
+
+.health-score h1{
+
+    margin:0;
+
+    font-size:36px;
+
+}
+
+.health-score span{
+
+    color:#666;
+
+    font-size:16px;
+
+}
+
+.health-status{
+
+    width:140px;
+
+    margin:20px auto;
+
+    text-align:center;
+
+    color:white;
+
+    padding:10px;
+
+    border-radius:30px;
+
+    font-weight:bold;
+
+}
+
+.checks-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:15px;
+
+    margin-top:25px;
+
+}
+
+.check-box{
+
+    background:#f8fafc;
+
+    padding:15px;
+
+    border-radius:10px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    border-left:4px solid #2563eb;
+
+    font-weight:600;
+
+}
+
+.check-box strong{
+
+    font-size:22px;
+
+}
+
+@media(max-width:768px){
+
+.checks-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}

@@ -1,0 +1,43 @@
+.suggested-container {
+
+    margin-bottom: 20px;
+
+}
+
+.suggested-buttons {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 10px;
+
+}
+
+.suggested-button {
+
+    padding: 10px 16px;
+
+    border: none;
+
+    border-radius: 20px;
+
+    background-color: #e8f0fe;
+
+    color: #1a73e8;
+
+    cursor: pointer;
+
+    font-size: 14px;
+
+    transition: 0.3s;
+
+}
+
+.suggested-button:hover {
+
+    background-color: #1a73e8;
+
+    color: white;
+
+}

@@ -1,0 +1,37 @@
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+    margin-top: 20px;
+}
+
+.card h2 {
+    margin-bottom: 20px;
+}
+
+.statistics-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 15px;
+}
+
+.statistics-grid div {
+    background: #f5f5f5;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+}
+
+.statistics-grid strong {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.statistics-grid p {
+    margin: 0;
+    font-size: 22px;
+    font-weight: bold;
+    color: #2563eb;
+}
